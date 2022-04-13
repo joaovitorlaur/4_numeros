@@ -1,0 +1,12 @@
+print("Digite um número de 0 á 3: ")
+num = int(input());
+if num == 0:
+  print("O número digitado é zero.");
+elif num == 1:
+  print("O número digitado é um.");
+elif num == 2:
+  print("O número digitado é dois.");
+elif num == 3:
+  print("O número digitado é três.");
+else:
+  print("Número inválido, digite um número inteiro que está entre 0 e 3.");
